@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Gamja+Flower&family=Nova+Square&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Rethink+Sans&family=Roboto+Condensed:wght@100&display=swap');
+
+.header{
+    color: #e0c56a;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+.menuHeader{
+    font-size: 32px;
+    width: fit-content;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin: 20px auto;
+    font-family: 'Gamja Flower', sans-serif
+}
+.main{
+    display: flex;
+}
+.food{
+    background-color: #e0c56a;
+    width: 20%;
+    margin-top: 10px;
+}
