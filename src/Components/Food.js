@@ -1,16 +1,20 @@
 import React from "react";
 
-export const Food = () => {
+export const Food = ({ fooddetails }) => {
     return (
         <>
             <div className="food">
-                <img src="" alt="" />
-                <div>
-                    <div>
-                        <h3>Foccacia</h3>
-                        <p>Bread with italian oil and rosebarry</p>
+                <div className="foodImg">
+                    <img src={fooddetails.src} alt="Example" />
+                </div>
+                <div className="fooddetails">
+                    <div className="fooddescription">
+                        <h3>{fooddetails.title}</h3>
+                        <p>{fooddetails.desc}</p>
                     </div>
-                    <div><p>6</p></div>
+                    <div className="stock">
+                        <p>{fooddetails.stock==0?"Sold Out":fooddetails.stock}</p>
+                    </div>
                 </div>
             </div>
         </>

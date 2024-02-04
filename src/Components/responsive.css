@@ -1,0 +1,19 @@
+@media only Screen and (max-width:1200px){
+    .main{
+        width: 100%;
+    }
+}
+@media only Screen and (max-width:880px){
+    .food{
+        width: 80%;
+        margin: 10px auto;
+        justify-content: space-evenly;
+    }
+}
+@media only Screen and (max-width:576px){
+    .food{
+        width: 100%;
+        margin: 10px auto;
+        justify-content: space-evenly;
+    }
+}
